@@ -2,7 +2,9 @@ let img;
 
 function setup() {
   createCanvas(400, 400, WEBGL);
-  img = loadImage("");
+  img = loadImage(
+    "https://raw.githubusercontent.com/day421/3D_Texture/main/image/shim.jpeg"
+  );
 }
 
 function draw() {
